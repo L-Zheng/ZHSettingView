@@ -1,0 +1,15 @@
+//
+//  SubLabelItemModel.h
+//  ZHSettingView
+//
+//  Created by 李保征 on 2018/2/12.
+//  Copyright © 2018年 李保征. All rights reserved.
+//
+
+#import "ItemModel.h"
+
+@interface SubLabelItemModel : ItemModel
+/** 右边label显示的内容 */
+@property (nonatomic, copy) NSString *text;
+
+@end

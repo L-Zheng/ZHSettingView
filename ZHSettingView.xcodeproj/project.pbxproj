@@ -15,6 +15,16 @@
 		0F491D1720313A2A00CAE618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D1620313A2A00CAE618 /* main.m */; };
 		0F491D2120313A2A00CAE618 /* ZHSettingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D2020313A2A00CAE618 /* ZHSettingViewTests.m */; };
 		0F491D2C20313A2A00CAE618 /* ZHSettingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D2B20313A2A00CAE618 /* ZHSettingViewUITests.m */; };
+		0F491D3B20313BB000CAE618 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D3A20313BB000CAE618 /* SettingViewController.m */; };
+		0F491D3E20313C9A00CAE618 /* SettingBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D3D20313C9A00CAE618 /* SettingBaseViewController.m */; };
+		0F491D4120313E2D00CAE618 /* GroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D4020313E2D00CAE618 /* GroupModel.m */; };
+		0F491D442031424900CAE618 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D432031424900CAE618 /* ItemModel.m */; };
+		0F491D472031438F00CAE618 /* ArrowItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D462031438F00CAE618 /* ArrowItemModel.m */; };
+		0F491D4A2031439C00CAE618 /* SubLabelItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D492031439C00CAE618 /* SubLabelItemModel.m */; };
+		0F491D4D203143A700CAE618 /* SwitchItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D4C203143A700CAE618 /* SwitchItemModel.m */; };
+		0F491D502031457600CAE618 /* SettingBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D4F2031457600CAE618 /* SettingBaseCell.m */; };
+		0F491D532031709C00CAE618 /* BadgeIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D522031709C00CAE618 /* BadgeIconView.m */; };
+		0F491D562031749600CAE618 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F491D552031749600CAE618 /* TempViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		0F491D2720313A2A00CAE618 /* ZHSettingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHSettingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F491D2B20313A2A00CAE618 /* ZHSettingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHSettingViewUITests.m; sourceTree = "<group>"; };
 		0F491D2D20313A2A00CAE618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F491D3920313BB000CAE618 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		0F491D3A20313BB000CAE618 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		0F491D3C20313C9A00CAE618 /* SettingBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingBaseViewController.h; sourceTree = "<group>"; };
+		0F491D3D20313C9A00CAE618 /* SettingBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingBaseViewController.m; sourceTree = "<group>"; };
+		0F491D3F20313E2D00CAE618 /* GroupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupModel.h; sourceTree = "<group>"; };
+		0F491D4020313E2D00CAE618 /* GroupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupModel.m; sourceTree = "<group>"; };
+		0F491D422031424900CAE618 /* ItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		0F491D432031424900CAE618 /* ItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		0F491D452031438F00CAE618 /* ArrowItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowItemModel.h; sourceTree = "<group>"; };
+		0F491D462031438F00CAE618 /* ArrowItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowItemModel.m; sourceTree = "<group>"; };
+		0F491D482031439C00CAE618 /* SubLabelItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubLabelItemModel.h; sourceTree = "<group>"; };
+		0F491D492031439C00CAE618 /* SubLabelItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubLabelItemModel.m; sourceTree = "<group>"; };
+		0F491D4B203143A700CAE618 /* SwitchItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchItemModel.h; sourceTree = "<group>"; };
+		0F491D4C203143A700CAE618 /* SwitchItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchItemModel.m; sourceTree = "<group>"; };
+		0F491D4E2031457600CAE618 /* SettingBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingBaseCell.h; sourceTree = "<group>"; };
+		0F491D4F2031457600CAE618 /* SettingBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingBaseCell.m; sourceTree = "<group>"; };
+		0F491D512031709C00CAE618 /* BadgeIconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadgeIconView.h; sourceTree = "<group>"; };
+		0F491D522031709C00CAE618 /* BadgeIconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadgeIconView.m; sourceTree = "<group>"; };
+		0F491D542031749600CAE618 /* TempViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		0F491D552031749600CAE618 /* TempViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +135,26 @@
 				0F491D0820313A2A00CAE618 /* AppDelegate.m */,
 				0F491D0A20313A2A00CAE618 /* ViewController.h */,
 				0F491D0B20313A2A00CAE618 /* ViewController.m */,
+				0F491D542031749600CAE618 /* TempViewController.h */,
+				0F491D552031749600CAE618 /* TempViewController.m */,
+				0F491D3C20313C9A00CAE618 /* SettingBaseViewController.h */,
+				0F491D3D20313C9A00CAE618 /* SettingBaseViewController.m */,
+				0F491D4E2031457600CAE618 /* SettingBaseCell.h */,
+				0F491D4F2031457600CAE618 /* SettingBaseCell.m */,
+				0F491D512031709C00CAE618 /* BadgeIconView.h */,
+				0F491D522031709C00CAE618 /* BadgeIconView.m */,
+				0F491D3920313BB000CAE618 /* SettingViewController.h */,
+				0F491D3A20313BB000CAE618 /* SettingViewController.m */,
+				0F491D3F20313E2D00CAE618 /* GroupModel.h */,
+				0F491D4020313E2D00CAE618 /* GroupModel.m */,
+				0F491D422031424900CAE618 /* ItemModel.h */,
+				0F491D432031424900CAE618 /* ItemModel.m */,
+				0F491D452031438F00CAE618 /* ArrowItemModel.h */,
+				0F491D462031438F00CAE618 /* ArrowItemModel.m */,
+				0F491D482031439C00CAE618 /* SubLabelItemModel.h */,
+				0F491D492031439C00CAE618 /* SubLabelItemModel.m */,
+				0F491D4B203143A700CAE618 /* SwitchItemModel.h */,
+				0F491D4C203143A700CAE618 /* SwitchItemModel.m */,
 				0F491D0D20313A2A00CAE618 /* Main.storyboard */,
 				0F491D1020313A2A00CAE618 /* Assets.xcassets */,
 				0F491D1220313A2A00CAE618 /* LaunchScreen.storyboard */,
@@ -265,9 +315,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F491D502031457600CAE618 /* SettingBaseCell.m in Sources */,
 				0F491D0C20313A2A00CAE618 /* ViewController.m in Sources */,
+				0F491D4120313E2D00CAE618 /* GroupModel.m in Sources */,
+				0F491D4D203143A700CAE618 /* SwitchItemModel.m in Sources */,
+				0F491D442031424900CAE618 /* ItemModel.m in Sources */,
+				0F491D562031749600CAE618 /* TempViewController.m in Sources */,
+				0F491D3E20313C9A00CAE618 /* SettingBaseViewController.m in Sources */,
 				0F491D1720313A2A00CAE618 /* main.m in Sources */,
 				0F491D0920313A2A00CAE618 /* AppDelegate.m in Sources */,
+				0F491D472031438F00CAE618 /* ArrowItemModel.m in Sources */,
+				0F491D532031709C00CAE618 /* BadgeIconView.m in Sources */,
+				0F491D3B20313BB000CAE618 /* SettingViewController.m in Sources */,
+				0F491D4A2031439C00CAE618 /* SubLabelItemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
